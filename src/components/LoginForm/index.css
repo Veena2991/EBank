@@ -1,0 +1,120 @@
+/* Write your CSS code here */
+.login-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 90%;
+  max-width: 1110px;
+  margin: auto;
+  background-color: #152850;
+}
+
+@media screen and (min-width: 992px) {
+  .login-form-container {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  background-color: #e0eefe;
+  height: 80vh;
+  width: 60vw;
+}
+
+.website-logo-image {
+  width: 30vw;
+}
+
+.form-container {
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+
+  padding: 20px;
+  border-radius: 25px;
+  background-color: #ffffff;
+  height: 80vh;
+}
+
+@media screen and (min-width: 992px) {
+  .form-container {
+    flex-shrink: 0;
+    box-shadow: 0px 8px 40px rgba(7, 7, 7, 0.08);
+    padding: 64px 48px 64px 48px;
+  }
+}
+
+.heading {
+  color: #152850;
+  font-size: 30px;
+  font-family: 'Roboto';
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.input-label {
+  margin-bottom: 0px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  color: #183b56;
+}
+
+.username-input-filed {
+  font-size: 12px;
+  height: 40px;
+  border: 1px solid #5a7184;
+  color: #5a7184;
+  border-radius: 4px;
+  margin-top: 5px;
+  padding: 8px 16px 8px 16px;
+}
+
+.password-input-filed {
+  font-size: 12px;
+  height: 40px;
+  border: 1px solid #5a7184;
+  color: #5a7184;
+  border-radius: 4px;
+  margin-top: 5px;
+  padding: 8px 16px 8px 16px;
+}
+
+.login-button {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 14px;
+  color: #ffffff;
+  height: 40px;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 2px;
+  background-color: #0b69ff;
+  border-radius: 8px;
+  border: none;
+}
+
+.error-message {
+  align-self: center;
+  font-size: 12px;
+  margin-top: 3px;
+  margin-bottom: 0px;
+  font-family: 'Roboto';
+  font-size: 12px;
+  line-height: 16px;
+  color: #ff0b37;
+}

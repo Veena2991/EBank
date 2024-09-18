@@ -1,0 +1,47 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 50px;
+  width: 90%;
+  max-width: 1110px;
+  background-color: #152850;
+}
+
+.logo-and-logoutBtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.ebank-logo-image {
+  height: 40px;
+}
+
+.logout-btn {
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 15px;
+  font-family: 'Roboto';
+  padding: 10px;
+}
+
+.heading-home {
+  color: #ffffff;
+  font-size: 45px;
+  font-family: 'Roboto';
+}
+
+.digital-card-img {
+  width: 60%;
+}
+
+.body-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
